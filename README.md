@@ -15,7 +15,7 @@ PrettyPlots is a Python library that simplifies the creation of publication-qual
 - **Customization**: Full control over fonts, colors, markers, and other visual aspects
 - **Easy Saving**: Save plots in multiple formats with a single command
 
-## Installation
+## Installation (WIP -- for now, git clone)
 
 ```bash
 pip install prettyplots
