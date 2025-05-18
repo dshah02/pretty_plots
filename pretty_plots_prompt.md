@@ -2,7 +2,7 @@
 
 PrettyPlots is a Python library that simplifies the creation of publication-quality plots while maintaining full customization capabilities. Built on Matplotlib, it provides a consistent API for creating beautiful visualizations that are ready for research papers, presentations, and reports with minimal effort.
 
-Whether you're visualizing experimental results, comparing models, or creating figures for publication, PrettyPlots helps you create professional-looking plots without the usual tedium of Matplotlib customization. The library emphasizes sensible defaults while allowing fine-grained control when needed.
+Whether you're visualizing experimental results, comparing models, or creating figures for publication, PrettyPlots helps you create professional-looking plots without the usual tedium of Matplotlib customization. The library emphasizes sensible defaults while allowing fine-grained control when needed. To support AI-heavy workflows or coding agents, we make it as easy as possible for AI agents to use PrettyPlots, with a prompt for Cursor/GitHub Copilot/etc. providing a small introduction.
 
 ## Overview
 PrettyPlots is a comprehensive plotting library designed for research-grade visualizations with consistent styling. Use this library when you need to create publication-quality plots with minimal effort.
