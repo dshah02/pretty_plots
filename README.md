@@ -2,7 +2,7 @@
 
 ![PrettyPlots Banner](figures/11_basis_functions.png)
 
-PrettyPlots is a Python library that simplifies the creation of publication-quality visualizations. Built on top of Matplotlib, it provides a consistent API for creating beautiful research plots with minimal effort while maintaining full customization capabilities.
+PrettyPlots is a Python library that simplifies the creation of publication-quality visualizations. Built on top of Matplotlib, it provides a consistent API for creating beautiful research plots with minimal effort while maintaining full customization capabilities. 
 
 
 ## Features
