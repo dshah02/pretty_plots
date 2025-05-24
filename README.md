@@ -85,20 +85,22 @@ pp.show()
 import numpy as np
 from pretty_plots import PrettyPlots as pp
 
-x = [np.linspace(1, 100, 100) for _ in range(3)]
-y = [
-    [np.log(x[0]), np.sqrt(x[0])],
-    [np.exp(-x[1]/50), np.exp(-x[1]/70)],
-    [np.sin(x[2]/10), np.cos(x[2]/10)]
+x_values = [[np.linspace(1, 100, 100)] * 2] * 3
+y_values = [
+    [np.log(x_values[0][0]), np.sqrt(x_values[0][0])],
+    [np.exp(-x_values[1][0]/50), np.exp(-x_values[1][0]/70)], 
+    [np.sin(x_values[2][0]/10), np.cos(x_values[2][0]/10)]
 ]
-labels = [["log(x)", "sqrt(x)"], ["exp(-x/50)", "exp(-x/70)"], ["sin(x/10)", "cos(x/10)"]]
 
 fig, axes = pp.triple_subplot(
-    x_values=x,
-    y_values=y,
-    subplot_titles=["Log & Sqrt", "Exponentials", "Trig Functions"],
-    labels=labels,
-    main_title="Triple Subplot Example",
+    x_values=x_values,
+    y_values=y_values,
+    subplot_titles=["Log and Sqrt", "Exponentials", "Trig Functions"],
+    labels=[
+        ["$\\log(x)$", "$\\sqrt(x)$"],
+        ["$\\exp(-x/50)$", "$\\exp(-x/70)$"],
+        ["$\\sin(x/10)$", "$\\cos(x/10)$"]
+    ],
     xlabel="X",
     ylabel="Y",
     style_name="research_paper"
@@ -108,7 +110,7 @@ pp.save_figure(fig, "triple_subplot_example", formats=["png"])
 pp.show()
 ```
 
-![Triple Subplot Example](figures/9_triple_subplot.png)
+![Triple Subplot Example](figures/triple_plot_example.png)
 
 ### Confidence Plot
 
